@@ -1,0 +1,31 @@
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #27296d;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    border: 2px solid black;
+}
+
+.main_container {
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+    grid-template-columns: 150px 1fr 0.7fr 1fr;
+    gap: 25px;
+    margin:15px;
+}
+
+.sidebar {
+    background: lightblue;
+    padding: 10px;
+    height: auto;
+}
