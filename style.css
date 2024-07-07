@@ -30,7 +30,7 @@ body {
     height: auto;
 }
 
-.container1 {
+.container3, .container6 {
     position: relative;
     width: 100%;
     max-width: 400px;
@@ -81,7 +81,7 @@ body {
     .container1 {
         grid-area: container1;
         border: 2px solid red;
-        height: 250px;
+        height: 280px;
         position:relative;
     }
     .container2 {
